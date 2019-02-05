@@ -1,4 +1,6 @@
-# Learning Bash
+# Learning Bash 💻🔥
+
+## Setup 🐯
 
 To learn the basics of bash, I read [this guide](http://matt.might.net/articles/bash-by-example/).  Rather than trying to rewrite a guide like that, I'll instead just include the project files I decided to build for this lesson, and explain all the steps I used. 
 
@@ -49,7 +51,7 @@ Then, you can run that file by typing:
 
 Nice! Below I'll put a few more files we can play with.
 
-Doing some math based on two numbers:
+## 🤓 Doing some math based on two numbers:
 ```
 #!/bin/bash                                                                     
 
@@ -62,7 +64,7 @@ else
 fi
 ```
 
-Basic text formatting - changing the color of some text:
+## 🔤 Basic text formatting - changing the color of some text:
 ```
 #!/bin/bash                                                                     
 
@@ -73,7 +75,7 @@ printf "I ${RED}love${NC} Hacksu\n"
 
 You can read more details about formatting [here](https://misc.flogisoft.com/bash/tip_colors_and_formatting).
 
-Printing all the colors:
+## 🎨 Printing all the colors:
 ```
 #!/bin/bash                                                                     
 
