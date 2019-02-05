@@ -73,7 +73,14 @@ NC='\033[0m' # No Color
 printf "I ${RED}love${NC} Hacksu\n"
 ```
 
-You can read more details about formatting [here](https://misc.flogisoft.com/bash/tip_colors_and_formatting).
+You can read more details about formatting [here](https://misc.flogisoft.com/bash/tip_colors_and_formatting)!
+
+## 🌺 Testing out different formatting options based on that link:
+```
+#!/bin/bash                                                                     
+echo "Changing to display option $1" # Note that $1 is your first argument
+echo -e '\033[0;'$1'm'               # It's possible you'll need to use a different 'escape' escape character than 033
+``` 
 
 ## 🎨 Printing all the colors:
 ```
