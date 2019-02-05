@@ -1,5 +1,11 @@
 # Learning Bash 💻🔥
 
+## Quick Links
+
+[General Bash Guide](http://matt.might.net/articles/bash-by-example/)
+[Emacs for windows](http://caiorss.github.io/Emacs-Elisp-Programming/Emacs_On_Windows.html)
+[Bash Formatting Cheat Sheet](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
+
 ## Setup 🐯
 
 To learn the basics of bash, I read [this guide](http://matt.might.net/articles/bash-by-example/).  Rather than trying to rewrite a guide like that, I'll instead just include the project files I decided to build for this lesson, and explain all the steps I used. 
@@ -17,6 +23,8 @@ I'll then be using `emacs` to create and edit files. We need a new file with no 
 ```
 emacs myFirstBashScript
 ```
+
+If you're on a windows machine, you don't have emacs! If you want it, you can download it [here!](http://caiorss.github.io/Emacs-Elisp-Programming/Emacs_On_Windows.html)
 
 Our first bash file, to learn the basics of Bash execution:
 
